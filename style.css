@@ -231,4 +231,78 @@ footer {
         font-size: 30px;
     }
 }
+/* PHASE 2 : PAGE D'INSCRIPTION */
 
+.page-inscription {
+    min-height: 100vh;
+    background: #0b0b0b;
+}
+
+.inscription-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.formulaire-inscription {
+    width: 100%;
+    max-width: 430px;
+    background: #141414;
+    padding: 40px;
+    border: 1px solid #d4af37;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulaire-inscription .logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.formulaire-inscription h1 {
+    color: #d4af37;
+    text-align: center;
+}
+
+.formulaire-inscription p {
+    color: #ccc;
+    text-align: center;
+}
+
+.formulaire-inscription label {
+    color: #fff;
+}
+
+.formulaire-inscription input {
+    padding: 12px;
+    border: 1px solid #5b4a20;
+    border-radius: 5px;
+    background: #0b0b0b;
+    color: #fff;
+}
+
+.formulaire-inscription button {
+    background: #d4af37;
+    color: #111;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.retour-accueil {
+    color: #d4af37;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .formulaire-inscription {
+        padding: 25px 20px;
+    }
+}
